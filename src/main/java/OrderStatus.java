@@ -1,4 +1,4 @@
-public enum OrderSatus {
+public enum OrderStatus {
     PROCESSING,
     IN_DELIVERY,
     COMPLETED
