@@ -1,12 +1,13 @@
 import java.util.List;
 
 public interface OrderRepo {
+    Order addOrder(Order order);
+    Order getOrderById(String id);
+    List<Order> getAllOrders();
 
     List<Order> getOrders();
 
-    Order getOrderById(String id);
-
-    Order addOrder(Order newOrder);
+     void updateOrder(Order order);
 
     void removeOrder(String id);
 }
